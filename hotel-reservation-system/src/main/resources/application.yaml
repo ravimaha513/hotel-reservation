@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://google/hotel?socketFactory=com.google.cloud.sql.mysql.SocketFactory&cloudSqlInstance=adb-1036067:us-east1:ub-test-db2&useSSL=false
+        username: root
+        password: Ashok0
+        continueOnError: true
+    jpa:
+        hibernate: 
+          ddlAuto: update     
+    thymeleaf:
+        mode: LEGACYHTML5
+    tomcat:
+        uri-encoding: ISO-8859-1
+database: mysql
