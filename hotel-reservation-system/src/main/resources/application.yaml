@@ -12,4 +12,6 @@ spring:
         mode: LEGACYHTML5
     tomcat:
         uri-encoding: ISO-8859-1
+    freemarker:
+        cache: false
 database: mysql
